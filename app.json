@@ -1,12 +1,15 @@
 {
   "expo": {
-    "name": "playlist-example",
-    "description": "a playlist of some songs that Greg likes to demo the Expo AV API.",
-    "scheme": "playlist-example",
+    "name": "ar-playlist",
+    "description": "a playlist of some songs that I likes to demo the Expo AV API.",
+    "scheme": "ar-playlist",
     "slug": "playlist",
     "privacy": "public",
     "version": "3.0.0",
-    "platforms": ["android", "ios"],
+    "platforms": [
+      "android",
+      "ios"
+    ],
     "githubUrl": "https://github.com/expo/playlist-example",
     "orientation": "portrait",
     "primaryColor": "#cccccc",
@@ -17,10 +20,21 @@
       "resizeMode": "contain"
     },
     "packagerOpts": {
-      "assetExts": ["png", "ttf"]
+      "assetExts": [
+        "png",
+        "ttf"
+      ]
     },
     "ios": {
       "supportsTablet": true
+    },
+    "android": {
+      "package": "com.arplay.playlist"
+    },
+    "extra": {
+      "eas": {
+        "projectId": "64537f3e-028a-43fd-9887-37848e73597a"
+      }
     }
   }
 }
